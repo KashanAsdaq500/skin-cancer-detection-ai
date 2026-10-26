@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "max_absolute_difference": 4.38690185546875e-05,
+  "tolerance": 0.0001,
+  "pytorch_output_shape": [
+    2,
+    7
+  ],
+  "onnx_output_shape": [
+    2,
+    7
+  ],
+  "status": "PASS: ONNX and PyTorch outputs match within tolerance"
+}

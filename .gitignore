@@ -1,0 +1,56 @@
+# ==============================================================================
+# Dermora AI - Root .gitignore
+# ==============================================================================
+
+# Python Bytecode & Runtime Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets & Temporary Data
+data/
+
+# Model Checkpoints & Large Binary Weights (>50MB PyTorch files, ONNX exports)
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+
+# Allow ONLY the verified production ONNX model:
+!backend/app/training/artifacts_real_training_20261020/dermora_model.onnx
+
+# Ignore historical local backup snapshots:
+backend/app/training/artifacts_backup_*/
+
+# Environment & Secret Files
+.env
+.env.*
+*.env
+
+# Explicitly Allow Environment Templates
+!.env.example
+!**/.env.example
+
+# Operating System & Editor Artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node.js & Next.js Caches
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
