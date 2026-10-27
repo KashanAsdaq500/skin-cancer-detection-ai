@@ -1,4 +1,4 @@
-# 🌿 Dermora AI — Dermatological Computer Vision Prototype
+#  Dermora AI — Dermatological Computer Vision Prototype
 
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js%2016%20%2B%20TypeScript-000000?logo=nextdotjs)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?logo=tailwindcss)](https://tailwindcss.com/)
@@ -18,7 +18,7 @@
 
 ---
 
-## 🎨 Official Visual Identity
+##  Official Visual Identity
 
 The project features the **Dermora AI** brandmark—a neural network shield combined with a botanical balance motif in cyan, deep navy, and teal, symbolizing clinical precision and skin health protection.
 - Stored as `image_bea0ca7.jpg` in the project root and served as `frontend/public/dermora-logo.jpg`.
@@ -26,7 +26,7 @@ The project features the **Dermora AI** brandmark—a neural network shield comb
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The modernized codebase separates UI and inference into dedicated services:
 
@@ -59,7 +59,7 @@ skin-cancer-detection-ai/
 
 ---
 
-## 🔬 Supported Lesion Taxonomy (ISIC / HAM10000)
+##  Supported Lesion Taxonomy (ISIC / HAM10000)
 
 Dermora AI models classifications across seven dermatological lesion types:
 
@@ -100,7 +100,7 @@ streamlit run skin_cancer_app/app.py
 
 ---
 
-## 📊 Scientific Integrity & Model Provenance
+##  Scientific Integrity & Model Provenance
 
 - **No Fake Random Sampling:** All legacy synthetic Dirichlet sampling (`np.random.dirichlet`) and hardcoded 94.5% clinical claims have been excised.
 - **Deterministic Baseline:** The current prototype extracts deterministic mathematical features (gradient sharpness variance, intensity contrast, color channel variegation, spatial asymmetry).
@@ -108,7 +108,7 @@ streamlit run skin_cancer_app/app.py
 
 ---
 
-## 📜 Dataset Attribution and Licence
+##  Dataset Attribution and Licence
 
 This project utilizes the **HAM10000** ("Human Against Machine with 10,000 training images") dataset for research benchmarking and model evaluation.
 
